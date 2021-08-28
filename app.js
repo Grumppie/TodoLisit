@@ -82,6 +82,7 @@ function filterTodo(e) {
                 }
                 break;
             default:
+                 todo.style.display = "none";
                 break;
         }
     })
